@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,700&display=swap');
+:root{
+  --navy:#014A8F;--lime:#7DC13A;--yellow:#F5DC0D;--orange:#E86D28;--pink:#E8369A;
+  --white:#fff;--off:#F8F6F0;--dark:#0D1117;--mid:#555;--border:#E2DDD7;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Nunito',sans-serif;background:var(--off);color:var(--dark);min-height:100vh;}
+.anton{font-family:'Anton',sans-serif;letter-spacing:.5px;}
+button{font-family:'Nunito',sans-serif;}
+::-webkit-scrollbar{width:5px;height:5px;}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px;}
